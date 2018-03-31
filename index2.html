@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .window{
+            width: 300px;
+            overflow: hidden;
+        }
+        .images{
+            display: flex;
+            align-items: flex-start;
+            transition: all 0.5s;
+
+        }
+        .images img{
+            width: 300px;
+            height: 450px;
+
+        }
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="window">
+    <div class="images">
+        <img src="./img/1.jpeg" alt="图片1">
+        <img src="./img/2.jpg" alt="图片2">
+        <img src="./img/3.png" alt="图片3">
+    </div>
+    <span id=buttons>
+    <span>第1张</span>
+    <span>第2张</span>
+    <span>第3张</span>
+
+  </span>
+</div>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="./js/main2.js"></script>
+</body>
+</html>
